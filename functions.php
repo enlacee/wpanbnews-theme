@@ -49,21 +49,21 @@ class StarterSite extends TimberSite {
 		// post *deportes*
 		$context['postsNews'] = Timber::get_posts(array(
 			'post_type' => 'noticia',
-			'category-new' => 'noticias-destacadas',
+			'category-new' => 'el-comercio-peru',
 			'numberposts' => 6
 		));
 
 		// post *deportes*
 		$context['postsEconomy'] = Timber::get_posts(array(
 			'post_type' => 'noticia',
-			'category-new' => 'economia',
+			'category-new' => 'rpp-noticias',
 			'numberposts' => 6
 		));
 
 		$context['postsSport'] = Timber::get_posts(array(
 			'post_type' => 'noticia', //category-new
 			//'category' => 'deportes',
-			'category-new' => 'deportes',
+			'category-new' => 'diario-depor',
 			'numberposts' => 6
 		));
 
