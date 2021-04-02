@@ -1,0 +1,394 @@
+	<div class="td-container">
+		<div class="td-container-border">
+			<div class="vc_row wpb_row td-pb-row">
+				<div class="wpb_column vc_column_container td-pb-span12">
+					<div class="vc_column-inner ">
+						<div class="wpb_wrapper">
+							<div class="td_block_wrap td_block_big_grid td_uid_16_580e30c86017b_rand td-grid-style-1 td-hover-1 td-big-grids td-pb-border-top"
+								data-td-block-uid="td_uid_16_580e30c86017b" style="margin-top:3px">
+
+							<!-- Category Economia-->
+							{% set postsData = postsNews %}
+							{% if postsData|length > 0 %}
+								{% set posts = postsData %}
+								<div id="td_uid_16_580e30c86017b" class="td_block_inner">
+									<div class="td-big-grid-wrapper">
+										{# ITEM 0 #}
+										<div class="td_module_mx5 td-animation-stack td-big-grid-post-0 td-big-grid-post td-big-thumb">
+											<div class="td-module-thumb">
+												<a href="{{posts[0].custom['_anews-input-url']}}" target="_blank" rel="nofollow" title="{{posts[0].title}}">
+													<img class="entry-thumb entry-thumbh100" src="{{posts[0].custom['_anews-input-image-url']}}" alt="{{posts[0].title}}"/>
+												</a>
+											</div>
+
+											<div class="td-meta-info-container">
+												<div class="td-meta-align">
+													<div class="td-big-grid-meta">
+														{% set cats = fn('get_the_terms', posts[0].id, appVars['taxonomyAgency']) %}
+														{% for cat in cats %}
+															<a href="#" class="td-post-category">{{cat.name}}</a>
+														{% endfor %}
+														<h3 class="entry-title td-module-title">
+															<a href="{{posts[0].custom['_anews-input-url']}}" rel="nofollow" title="{{posts[0].title}}">
+															{{posts[0].title}}
+															</a>
+														</h3>
+													</div>
+												</div>
+											</div>
+										</div>
+
+
+										{# ITEM 1 #}
+										<div class="td_module_mx6 td-animation-stack td-big-grid-post-1 td-big-grid-post td-tiny-thumb">
+											<div class="td-module-thumb">
+												<a href="{{posts[1].custom['_anews-input-url']}}" target="_blank" rel="nofollow" title="{{posts[1].title}}">
+													<img class="entry-thumb entry-thumbh100" src="{{posts[1].custom['_anews-input-image-url']}}" alt="{{posts[1].title}}"/>
+												</a>
+											</div>
+
+											<div class="td-meta-info-container">
+												<div class="td-meta-align">
+													<div class="td-big-grid-meta">
+														<!-- <a href="category/tagdiv-lifestyle/index.html" class="td-post-category">Lifestyle</a> -->
+														<h3 class="entry-title td-module-title">
+															<a href="{{posts[1].custom['_anews-input-url']}}" target="_blank"
+															rel="nofollow" title="{{posts[1].title}}">{{posts[1].title}}
+															</a>
+														</h3>
+													</div>
+												</div>
+											</div>
+										</div>
+
+										<div class="td_module_mx6 td-animation-stack td-big-grid-post-2 td-big-grid-post td-tiny-thumb">
+											<div class="td-module-thumb">
+												<a href="{{posts[2].custom['_anews-input-url']}}" target="_blank" rel="nofollow"
+													title="{{posts[2].title}}">
+													<img width="238" height="178" class="entry-thumb entry-thumbh100" src="{{posts[2].custom['_anews-input-image-url']}}"
+													alt="{{posts[2].title}}"/>
+												</a>
+											</div>
+											<div class="td-meta-info-container">
+												<div class="td-meta-align">
+													<div class="td-big-grid-meta">
+														<!-- <a href="#" class="td-post-category">Activities</a> -->
+														<h3 class="entry-title td-module-title">
+															<a href="{{posts[2].custom['_anews-input-url']}}" target="_blank" rel="nofollow"
+																title="{{posts[2].title}}">{{posts[2].title}}</a>
+														</h3>
+													</div>
+												</div>
+											</div>
+										</div>
+
+										<div class="td_module_mx6 td-animation-stack td-big-grid-post-3 td-big-grid-post td-tiny-thumb">
+											<div class="td-module-thumb">
+												<a href="{{posts[3].custom['_anews-input-url']}}" target="_blank" rel="nofollow"
+												title="{{posts[3].title}}">
+													<img width="238" height="178" class="entry-thumb entry-thumbh100" src="{{posts[3].custom['_anews-input-image-url']}}"
+														alt="{{posts[3].title}}"/>
+												</a>
+											</div>
+
+											<div class="td-meta-info-container">
+												<div class="td-meta-align">
+													<div class="td-big-grid-meta">
+														<!-- <a href="category/tagdiv-fashion-week/tagdiv-fashion/index.html" class="td-post-category">Fashion week</a> -->
+														<h3 class="entry-title td-module-title">
+															<a href="{{posts[3].custom['_anews-input-url']}}" target="_blank" rel="nofollow"
+															title="{{posts[3].title}}">{{posts[3].title}}</a>
+														</h3>
+													</div>
+												</div>
+											</div>
+										</div>
+
+										{# ITEM 4 #}
+										<div class="td_module_mx6 td-animation-stack td-big-grid-post-4 td-big-grid-post td-tiny-thumb ">
+											<div class="td-module-thumb">
+												<a href="{{posts[4].custom['_anews-input-url']}}" target="_blank" rel="nofollow" title="{{posts[4].title}}">
+													<img width="238" height="178" class="entry-thumb entry-thumbh100"
+													src="{{posts[4].custom['_anews-input-image-url']}}" alt="{{posts[4].title}}"/>
+												</a>
+											</div>
+											<div class="td-meta-info-container">
+												<div class="td-meta-align">
+													<div class="td-big-grid-meta">
+														<!-- <a href="category/tagdiv-travel/index.html" class="td-post-category">Travel</a> -->
+														<h3 class="entry-title td-module-title">
+															<a href="{{posts[4].custom['_anews-input-url']}}" target="_blank" rel="nofollow" title="{{posts[4].title}}">
+															{{posts[4].title}}</a>
+														</h3>
+
+													</div>
+												</div>
+											</div>
+										</div>
+
+									</div>
+									<div class="clearfix"></div>
+								</div>
+							{% endif %}
+							</div>
+						</div>
+					</div>
+				</div>
+			</div><!---->
+
+			<div class="vc_row wpb_row td-pb-row td-ss-row">
+				<!-- first colum -->
+				<div class="wpb_column vc_column_container td-pb-span8">
+					<div class="vc_column-inner ">
+						<div class="wpb_wrapper">
+							<div class="clearfix"></div>
+
+							<!-- Category Economia-->
+							{% set postsData = postsEconomy %}
+							{% if postsData|length > 0 %}
+								{% set posts = postsData %}
+								<div class="td_block_wrap td_block_1 td_with_ajax_pagination">
+									{% set cats = fn('get_the_terms', postsData[0].id, appVars['taxonomyNew']) %}
+									{% for cat in cats %}
+										<h4 class="block-title"><span>{{cat.name}}</span></h4>
+									{% endfor %}
+									<div id="" class="td_block_inner">
+										<div class="td-block-row">
+											{% for i in 0..4 %}
+												{% if posts[i] is defined %}
+													{% set imgDefault = thumbnailDefault %}
+													{% set image = '' %}
+													{% if posts[i].custom['_anews-input-image-url'] == false %}
+													{%	set image = imgDefault %}
+													{% else %}
+													{%	set image = posts[i].custom['_anews-input-image-url'] %}
+													{% endif %}
+												{% endif %}
+
+												{% if i == 0 %}
+													<div class="td-block-span6">
+														<div class="td_module_4 td_module_wrap td-animation-stack">
+															<div class="td-module-image">
+																<div class="td-module-thumb">
+																	<a href="{{posts[i].custom['_anews-input-url']}}"
+																	rel="nofollow" title="{{posts[i].title}}">
+																		<img width="300" height="194" class="entry-thumb td-animation-stack-type0-1"
+																		src="{{image}}" alt="{{posts[i].title}}">
+																	</a>
+																</div>
+																<!-- <a href="" class="td-post-category">New York 2014</a> -->
+															</div>
+
+															<h3 class="entry-title td-module-title">
+																<a href="{{posts[i].custom['_anews-input-url']}}"
+																rel="nofollow" title="{{posts[i].title}}">
+																{{posts[i].title}}</a>
+															</h3>
+
+															<div class="td-excerpt">
+															{{ posts[i].custom['_anews-input-description'][:140] }}
+															</div>
+														</div>
+													</div>
+												{% else %}
+													<div class="td-block-span6">
+														<div class="td_module_6 td_module_wrap td-animation-stack">
+															<div class="td-module-thumb">
+																<a href="{{posts[i].custom['_anews-input-url']}}" rel="nofollow" title="{{posts[i].title}}">
+																	<img width="100" height="75" class="entry-thumb td-animation-stack-type0-1"
+																	src="{{image}}" alt="{{posts[i].title}}">
+																</a>
+															</div>
+															<div class="item-details">
+																<h3 class="entry-title td-module-title">
+																	<a href="{{posts[i].custom['_anews-input-url']}}"
+																	rel="nofollow" title="{{posts[i].title}}">{{posts[i].title}}</a>
+																</h3>
+															</div>
+														</div>
+													</div>
+												{% endif %}
+											{% endfor %}
+										</div>
+									</div>
+								</div>
+							{% endif %}
+
+							<div class="clearfix"></div>
+							<hr>
+
+							<!-- Category Deportes-->
+							{% set postsDeport = postsSport %}
+							{% if postsDeport|length > 0 %}
+								<div class="td_block_wrap td_block_15 td-pb-full-cell td_with_ajax_pagination td-pb-border-top">
+									{% set cats = fn('get_the_terms', postsDeport[0].id, appVars['taxonomyNew']) %}
+									{% for cat in cats %}
+										<h4 class="block-title"><span>{{cat.name}}</span></h4>
+									{% endfor %}
+
+									<div id="" class="td_block_inner td-column-2">
+										{# SECCION 1 #}
+										{% set numPost = 2 %}
+										{% set numCol = 2 %}
+										{% set constante =  numPost / numCol|round %}
+										{% set c = 0 %}
+
+										{% for a in c .. constante-1 %}
+											{% set inicio = c*numCol %}
+											{% set fin = (c*numCol) + numCol %}
+											<div class="td-block-row">
+												{% set x = inicio %}
+
+												{% for b in x..fin-1 %}
+													{% set image = '' %}
+													{% if postsDeport[b].custom['_anews-input-image-url'] == false %}
+													{%	set image = imgDefault %}
+													{% else %}
+													{%	set image = postsDeport[b].custom['_anews-input-image-url'] %}
+													{% endif %}
+													{% if loop.first %}
+														<div class="td-block-span6">
+															<div class="td_module_mx1 td_module_wrap td-animation-stack">
+																<div class="td-block14-border"></div>
+																<div class="td-module-thumb">
+																	<a href="{{postsDeport[b].custom['_anews-input-url']}}" rel="nofollow"
+																		title="{{postsDeport[b].title}}">
+																		<img width="341" height="220" class="entry-thumb td-animation-stack-type0-2"
+																		src="{{image}}" alt="{{postsDeport[b].title}}"></a>
+																</div>
+																<div class="meta-info">
+																	<h3 class="entry-title td-module-title">
+																		<a href="{{postsDeport[b].custom['_anews-input-url']}}" rel="nofollow" title="{{postsDeport[b].title}}">{{postsDeport[b].title}}</a></h3>
+
+																</div>
+															</div>
+														</div>
+													{% else %}
+														<div class="td-block-span6">
+															<div class="td_module_mx1 td_module_wrap td-animation-stack">
+																<div class="td-block14-border"></div>
+																<div class="td-module-thumb">
+																<a href="{{postsDeport[b].custom['_anews-input-url']}}" rel="nofollow"
+																title="{{postsDeport[b].title}}">
+																	<img width="341" height="220" class="entry-thumb td-animation-stack-type0-2"
+																	src="{{image}}" alt="{{postsDeport[b].title}}" >
+																</a>
+																</div>
+																<div class="meta-info">
+																	<h3 class="entry-title td-module-title">
+																		<a href="{{postsDeport[b].custom['_anews-input-url']}}" rel="nofollow" title="{{postsDeport[b].title}}">{{postsDeport[b].title}}</a></h3>
+
+																</div>
+															</div>
+														</div>
+													{% endif %}
+
+												{% endfor %}
+											</div>
+										{% endfor %}
+										{# SECCION 2 #}
+										{#% set partPostDeport = postsDeport|slice(2) %#}
+										{% set posts1 = postsDeport|slice(2,2) %}
+										{% set posts2 = postsDeport|slice(4,2) %}
+
+										{% if posts1|length > 0 %}
+										<div class="td-block-row">
+											{% for  post in posts1 %}
+												{% set imgDefault = thumbnailDefault %}
+												{% set image = '' %}
+												{% if post.custom['_anews-input-image-url'] == false %}
+												{%	set image = imgDefault %}
+												{% else %}
+												{%	set image = post.custom['_anews-input-image-url'] %}
+												{% endif %}
+												<div class="td-block-span6">
+													<div class="td_module_mx2 td_module_wrap td-animation-stack">
+														<div class="td-module-thumb">
+															<a href="{{post.custom['_anews-input-url']}}" rel="nofollow" title="">
+																<img width="80" height="60" class="entry-thumb td-animation-stack-type0-2" src="{{image}}" alt="{{post.title}}">
+															</a>
+														</div>
+
+														<div class="item-details">
+															<h3 class="entry-title td-module-title">
+																<a href="{{post.custom['_anews-input-url']}}" rel="nofollow" title="{{post.title}}">{{post.title}}</a>
+															</h3>
+														</div>
+													</div>
+												</div>
+											{% endfor %}
+										</div>
+										{% endif %}
+
+										{# CODIGO DUPLICADO #}
+										{% if posts2|length > 0 %}
+										<div class="td-block-row">
+											{% for  post in posts2 %}
+												{% set imgDefault = thumbnailDefault %}
+												{% set image = '' %}
+												{% if post.custom['_anews-input-image-url'] == false %}
+												{%	set image = imgDefault %}
+												{% else %}
+												{%	set image = post.custom['_anews-input-image-url'] %}
+												{% endif %}
+												<div class="td-block-span6">
+													<div class="td_module_mx2 td_module_wrap td-animation-stack">
+														<div class="td-module-thumb">
+															<a href="{{post.custom['_anews-input-url']}}" rel="nofollow" title="">
+																<img width="80" height="60" class="entry-thumb td-animation-stack-type0-2" src="{{image}}" alt="{{post.title}}">
+															</a>
+														</div>
+
+														<div class="item-details">
+															<h3 class="entry-title td-module-title">
+																<a href="{{post.custom['_anews-input-url']}}" rel="nofollow" title="{{post.title}}">{{post.title}}</a>
+															</h3>
+														</div>
+													</div>
+												</div>
+											{% endfor %}
+										</div>
+										{% endif %}
+									</div>
+								</div>
+							{% endif %}
+						</div><!--wpb_wrapper-->
+					</div>
+				</div>
+
+				<!-- second colum-->
+				<div class="wpb_column vc_column_container td-pb-span4">
+					<div class="vc_column-inner">
+						<div class="wpb_wrapper">
+							<div class="clearfix"></div>
+							<div class="td-a-rec td-a-rec-id-sidebar">
+
+							<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+							<!-- noticias-del-peru-net -->
+							<ins class="adsbygoogle"
+								style="display:block"
+								data-ad-client="ca-pub-3077833809453573"
+								data-ad-slot="9802128210"
+								data-ad-format="auto"></ins>
+							<script>
+							(adsbygoogle = window.adsbygoogle || []).push({});
+							</script>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+
+
+
+	{% block footer %}
+		<footer class="td-sub-footer-container td-container td-container-border ">
+			{% include 'footer.twig' %}
+		</footer>
+		<!-- wp_footer -->
+		{{ function('wp_footer') }}
+	{% endblock %}
